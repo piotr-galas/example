@@ -1,0 +1,16 @@
+.control-bar{
+  background: #222d32;
+  color: #b8c7ce;
+  position: absolute;
+  padding-top: 50px;
+  top:10px;
+  z-index: 1010;
+  width: 320px;
+  right: -320px;
+  transition: right .3s ease-in-out;
+  display: block;
+}
+
+.control-bar-show{
+  right: 0 !important;
+}

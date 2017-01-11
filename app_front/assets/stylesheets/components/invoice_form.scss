@@ -1,0 +1,15 @@
+.invoice-form{
+  .select2{
+    display: block;
+    .select2-selection--single{
+      height: 33px;
+    }
+  }
+  .field_with_errors{
+    color: red;
+    input{
+      color: red;
+      border-color: red;
+    }
+  }
+}

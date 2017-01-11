@@ -1,0 +1,26 @@
+.email-board {
+  &__modals-area {
+    background-color: #222d32;
+    padding: 11px;
+    margin-bottom: 3px;
+    .form-group{
+      .clear{
+        height: 10px;
+      }
+    }
+    button.btn.btn-default{
+      font-weight: bold
+    }
+  }
+  &__accordion-area{
+    .panel-heading{
+      i{
+        margin-top:-7px
+      }
+    }
+    .panel-body{
+      //white-space: pre-wrap;
+    }
+  }
+}
+

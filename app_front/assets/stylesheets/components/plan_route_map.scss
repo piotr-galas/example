@@ -1,0 +1,70 @@
+#map {
+  height: 800px !important;
+}
+td.clicked{
+  background-color: #eeeeee;
+  font-weight: bold;
+  border: 1px solid #dddddd !important;
+}
+td.clicked#zip-to{
+  color: #B00100;
+}
+
+td.clicked#zip-from{
+  color: #000000;
+}
+
+td.zip-field-js-selector:hover{
+  cursor: pointer;
+}
+
+td.it-is-in-route-now{
+  color: #888888;
+}
+td.it-is-in-route-now:hover{
+  cursor: not-allowed;
+}
+
+.labels-marker-map-from{
+    color:#fff;
+    margin-top: 0 !important;
+    background-color: #000;
+}
+
+.labels-marker-map-to{
+  color:#fff;
+  margin-top: 0 !important;
+  background-color: #B00100;
+}
+
+
+#start-input, #end-input {
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.control-map_panel{
+
+  &__total{
+    background-color: #e6e6e6;
+    padding:8px;
+    border: 1px solid #c9c9c9;
+    float: left;
+  }
+}
+

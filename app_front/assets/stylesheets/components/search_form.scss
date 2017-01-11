@@ -1,0 +1,22 @@
+.search-form{
+  &__submit-button{
+    background-color: $orange;
+    width: 260px;
+    margin:10px;
+    border: none;
+    border-radius: 3px;
+    color: $white-darker;
+    font-weight: bold;
+    padding: 4px 0;
+  }
+  label{
+    width: 90px;
+    margin-left: 10px;
+  }
+  input[type='text']{
+    color: $red-black;
+    @include placeholder($light-grey);
+
+  }
+
+}

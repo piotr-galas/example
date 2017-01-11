@@ -1,0 +1,34 @@
+// This component is used also in external_orders/thank_you
+
+.external-show{
+  background-color: $almost-black;
+  &__show-container{
+    background-color: #eee;
+    padding: 80px 50px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    .section1{
+      h1{
+        font-size: 50px;
+      }
+    }
+    .section2{
+      margin-top: 190px;
+      text-align: center;
+      p{
+        font-size: 18px;
+        margin-top:20px;
+      }
+    }
+    .section3{
+      margin-top: 40px;
+      text-align: center;
+      ul,li{
+        list-style: none;
+        padding-left: 0;
+      }
+    }
+
+  }
+
+}

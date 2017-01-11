@@ -1,0 +1,101 @@
+.external-form{
+  background-color: $almost-black;
+  .field_with_errors input{
+    border-bottom: 1px solid red;
+  }
+  &__top-decorator{
+    display: inline-block;
+    margin-top: 80px;
+    background-color:  #FF8300;
+    padding: 6px 60px 6px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #eeeeee;
+  }
+  &__form-container{
+    background-color: #eee;
+    padding: 80px 50px;
+    &__invoice-address{
+      float: right;
+    }
+    input[type='submit']{
+      background-color:  #FF8300;
+      margin-top: 30px;
+      width: 100%;
+      border: none;
+      padding: 8px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #eeeeee;
+    }
+    .section--second{
+      margin-top: 50px;
+    }
+    .section--third{
+      margin-top: 30px;
+    }
+    .select2{
+      display: block;
+      .select2-selection--single{
+        height: 33px;
+      }
+    }
+    &__radio-box{
+      background-color: #fff;
+      border: 1px solid #d2d2d2;
+      padding: 10px;
+      min-height: 105px;
+      input{
+        margin: 5px 10px;
+      }
+    }
+    &__check-box{
+      .field_with_errors{
+        display: inline;
+        border-bottom: 1px solid red;
+      }
+      margin-top: 25px;
+      input{
+        float: left;
+        margin-right: 8px;
+      }
+    }
+    &__address{
+      background-color: #fff;
+      border: 1px solid #d2d2d2;
+      padding: 30px;
+      .radio-horizontal{
+        label{
+          padding-right: 20px
+        }
+        input[type="radio"]{
+          margin-right:2px;
+        }
+        .field_with_errors{
+          display: inline;
+          border-bottom: 1px solid red;
+        }
+      }
+      .own-grid{
+        label{
+          width:100%;
+          overflow:hidden;
+          display:inline-block;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .col-60{
+        float:left;
+        width:50%;
+        padding-left: 15px;
+        padding-right:2%;
+      }
+      .col-20{
+        float:left;
+        width:15%
+      }
+    }
+  }
+
+}
